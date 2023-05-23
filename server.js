@@ -28,7 +28,7 @@ app.post('/sendApprovalEmail', (req, res) => {
 
     const msg = {
         to: email,
-        from: 'dnagy@redwind.net', // Replace with your email
+        from: 'dnagy@redwind.net', // Replace Dana's email
         subject: 'Meeting Approved',
         text: `Dear ${name}, your meeting has been approved.`,
         html: `<strong>Dear ${name},</strong><br><br>Your meeting has been approved.`,
@@ -50,7 +50,7 @@ app.post('/sendRejectionEmail', (req, res) => {
 
     const msg = {
         to: email,
-        from: 'dnagy@redwind.net', // Replace with your email
+        from: 'dnagy@redwind.net', // Replace Dana's email
         subject: 'Meeting Rejected',
         text: `Dear ${name}, your meeting has been rejected.`,
         html: `<strong>Dear ${name},</strong><br><br>Your meeting has been rejected.`,
