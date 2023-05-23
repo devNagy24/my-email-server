@@ -38,8 +38,8 @@ Replace YOUR_SENDGRID_API_KEY in the config.js file with your own SendGrid API k
       - Success: Status code 200 with the message "Email sent successfully."
       - Failure: Status code 500 with an error message.
     
-- Contributing
+## Contributing
     -Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
-- License
+## License
     - This project is licensed under the MIT License.
